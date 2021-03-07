@@ -1,0 +1,30 @@
+
+.page-item{
+    border: none !important;
+}
+
+.page-link{
+    color: rgb(95, 95, 95);
+    box-shadow: none !important;
+    border: 1px solid rgb(156, 156, 156);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+
+.page-link:hover{
+    color: rgb(32, 32, 32);
+    background-color: transparent;
+    border-color: rgb(82, 82, 82);
+}
+
+.tail-arrow{
+    font-weight: 100;
+    font-size: medium;
+    vertical-align: middle;
+}
+
+/* .page-link{
+    border-radius: 0% !important;
+} */
+
+

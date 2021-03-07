@@ -1,0 +1,36 @@
+
+
+div{
+    background: url('https://cdn.pixabay.com/photo/2021/02/01/20/16/yachts-5971866_960_720.jpg') no-repeat center center fixed;
+    width: 100%;
+    background-size: cover;
+    top: 0;
+    left: 0;
+}
+div p{
+    position: relative;
+    top: 0%;
+    left: 0%;
+}
+.text-opacity-bg{
+    background: rgba(0,0,0,0.5) !important;
+    color: #fff !important;
+    padding: 15% 0% 20% 0%;
+    width: 100%;
+    margin-right: 0px;
+    margin: 0%;
+    font-size: medium;
+}
+
+body{
+    margin: 0%;
+}
+
+.p-overlay-text{
+    padding: 0% 10% 0% 10%;
+}
+
+
+
+
+

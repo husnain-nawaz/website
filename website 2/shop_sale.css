@@ -140,7 +140,7 @@ code {
 
 /* images containers row */
 .image-fashion-women{
-    width: 65%;
+    width: 67%;
 }
 
 .div-images-container{
@@ -168,6 +168,15 @@ code {
 }
 .product-price{
     color: rgb(48, 48, 48);
+    margin-bottom: 0.2rem;
+}
+.product-price-old{
+    color: rgb(141, 141, 141);
+    text-decoration: line-through;
+}
+
+.p-soldout{
+    font-size: small;
 }
 
 @media only screen and (max-width: 992px) {
@@ -371,6 +380,137 @@ pre{
     color: rgb(15, 15, 15);
     text-underline-offset: 2px;
 }
+
+
+/* image overlay */
+
+
+
+
+.background-image-div{
+    background: url('https://cdn.pixabay.com/photo/2021/02/01/20/16/yachts-5971866_960_720.jpg') no-repeat center center;
+    width: 100%;
+    background-size: cover;
+    top: 0;
+    left: 0;
+}
+
+.p-overlay-text{
+    position: relative;
+    top: 0%;
+    left: 0%;
+}
+.text-opacity-bg{
+    background: rgba(0,0,0,0.5) !important;
+    color: #fff !important;
+    padding: 22% 0% 20% 0%;
+    width: 100%;
+    margin-right: 0px;
+    margin: 0%;
+    font-size: medium;
+}
+
+body{
+    margin: 0%;
+}
+
+.p-overlay-text{
+    padding: 0% 20% 0% 20%;
+    text-align: center;
+    font-size: 110%;
+}
+.headeer-overlay-text{
+    font-size: xx-large;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 576px) {
+    .p-overlay-text{
+        padding: 0% 15% 0% 15%;
+        text-align: center;
+        font-size: small;
+    }
+    .headeer-overlay-text{
+        font-size: 155%;
+        font-weight: 400;
+    }
+}
+
+
+/* from filter */
+
+.label-text{
+    font-weight: 700;
+    font-size: 70%;
+}
+
+
+.div-select-styling{
+    border-bottom: 1px solid black;
+    margin: 0px 0px 0px 10px;
+}
+
+.custom-select{
+    box-shadow: none !important;
+    border-radius: 0%;
+    border-color: rgb(153, 153, 153);
+}
+.custom-select:focus{
+    border-color: black;
+}
+.custom-select:hover{
+    border-color: black;
+}
+.span-select{
+    float: right;
+    font-weight: 700;
+    font-size: 75%;
+    vertical-align: middle !important;
+    padding-top: 10px;
+}
+
+
+/* pagination */
+
+.page-item{
+    border: none !important;
+}
+
+.page-link{
+    color: rgb(95, 95, 95);
+    box-shadow: none !important;
+    border: 1px solid rgb(156, 156, 156);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+
+.page-link:hover{
+    color: rgb(32, 32, 32);
+    background-color: transparent;
+    border-color: rgb(82, 82, 82);
+}
+
+.tail-arrow{
+    font-weight: 100;
+    font-size: medium;
+    vertical-align: middle;
+}
+
+.pagination-div{
+    border-top: 1px solid rgb(87, 87, 87);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
